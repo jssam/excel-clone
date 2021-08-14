@@ -1,0 +1,216 @@
+body{
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+/* top block  */
+.menu-container{
+    background-color: #282626;
+    height:80px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.menu-container>*{
+height: 80%;
+width: 20%;
+border-right:solid 2px rgb(167, 164, 164) ;
+}
+.formatting-contaner{
+    display:flex;
+    justify-content: space-around;
+}
+.subgroup{
+    width: 45%;
+    height: 100%;
+}
+.subgroup>*{
+width: 100%;
+}
+.subgroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.BUI_container{
+    display: flex;
+    justify-content: space-around;
+}
+.BUI_container>*{
+    width: 30%;
+}
+
+.alignment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alignment-container>*{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.formula-container{
+    background-color: rgb(79 81 81);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.adress-box{
+width: 10%;
+}
+.seperator{
+    width: 1%;
+    color: white;
+}
+.formula-box{
+    width: 80%;
+}
+
+
+
+
+
+.grids{
+height: calc(100vh - ( 80px + 30px + 40px ));
+position: relative;
+overflow: auto;
+}
+.sheets{
+    background-color:rgb(202, 197, 206);
+    height: 40px;
+    display: flex;
+    
+    overflow: auto;
+}
+.add-sheet_container{
+    height: 100%;
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.icon{
+    font-size: 1.2rem;
+    width: auto;
+    min-width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.sheets-list{
+    display: flex;
+    overflow: auto;
+    align-items: center;
+    /* overflow: hidden; */
+
+}
+.sheets-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .sheets-list {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.sheet{
+    min-width: 60px;
+    height:100%;
+    /* content center par lane je liye ye hota  hai */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active-sheet{
+background-color: white;
+}
+
+
+
+.active-btn{
+    background-color:rgb(110, 104, 104)
+}
+
+
+
+
+
+
+
+.top-left-block {
+    height: 30px;
+    width: 25px;
+    background-color: black;
+}
+
+.top-row {
+    height: 30px;
+    background-color: #a3a1a3bf;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 25px
+}
+
+.grid_container {
+    position: relative;
+    
+}
+.row {
+    display: flex;
+    
+
+}
+.col {
+    min-width: 80px;
+    max-width: 80px;
+    
+    border: 1px solid;
+    min-height:30px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.left-col {
+    width: 25px;
+    /* border: 1px solid red; */
+}
+
+.grid {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+.left-col_box {
+    height: 30px;
+    background-color: #a3a1a3bf;
+    text-align: center;
+    border: 1px solid;
+}
+
+
+
+
+
